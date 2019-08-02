@@ -22,7 +22,7 @@ CYAN  = u'\u001b[36m'
 WHITE = u'\u001b[37m'
 RESET = u'\u001b[0m'
 
-MAX_FILESIZE = 100 * pow(1024,3) # 100 MB
+MAX_FILESIZE = 100 * pow(1024,2) # 100 MB
 
 def pinfo(text):
   stderr.write(GREEN)
